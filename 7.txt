@@ -1,0 +1,37 @@
+using System;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+class Ex7
+{
+    static void Main()
+    {
+        List<Student> students = new(); // колекція студентів
+
+        while (true)
+        {
+            string[]? action = Console.ReadLine()?.Split(' '); // зчитування команди
+
+            if (action != null)
+                if (action[0].ToLower() == "end") { Console.WriteLine(); break; } // завершення вводу
+                else if (action.Length >= 3) // якщо введено 3 слова
+                {
+                    int[] temp = new int[action.Length - 2];
+                    for (int i = 2; i < action.Length; i++)
+                        temp[i] = Convert.ToInt32(action[i]);
+
+                    students.Add(new Student(action[0], action[1], temp)); // додавання студента
+                }
+        }
+
+        var SelectedStudents = from s in students
+                               where s.Marks.Where(m => m == 6).Count() > 0
+                               select s;
+
+        foreach (var student in SelectedStudents) // вивід студентів з SelectedStudents
+            Console.WriteLine(student);
+
+
+        Console.ReadKey();
+    }
+}
