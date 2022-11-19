@@ -6,9 +6,6 @@ class Ex9
 {
     static void Main()
     {
-<<<<<<< HEAD
-
-=======
         List<Student> students = new(); // колекція студентів
 
         while (true)
@@ -33,7 +30,6 @@ class Ex9
 
         foreach (var student in SelectedStudents) // вивід студентів з SelectedStudents
             Console.WriteLine(student);
->>>>>>> Добавьте файлы проекта.
 
 
         Console.ReadKey();
