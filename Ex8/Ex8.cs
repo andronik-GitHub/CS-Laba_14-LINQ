@@ -25,7 +25,7 @@ class Ex8
         }
 
         var SelectedStudents = from s in students
-                               where s.Marks.Where(m => m == 6).Any() // якщо у s.Marks є хоча б одна оцінка Відмінно (6)
+                               where s.Marks.Where(m => m <= 3).Count() >= 2 // якщо у s.Marks є хоча б 2 оцінки нижче 3 включно
                                select s; // то s записуєтся в SelectedStudents
 
         foreach (var student in SelectedStudents) // вивід студентів з SelectedStudents

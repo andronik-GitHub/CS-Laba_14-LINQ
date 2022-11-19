@@ -28,6 +28,7 @@ class Ex7
                                where s.Marks.Where(m => m == 6).Any() // якщо у s.Marks є хоча б одна оцінка Відмінно (6)
                                select s; // то s записуєтся в SelectedStudents
 
+
         foreach (var student in SelectedStudents) // вивід студентів з SelectedStudents
             Console.WriteLine(student);
 
