@@ -15,13 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex5", "..\Ex5\Ex5.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex6", "..\Ex6\Ex6.csproj", "{9F8A8139-797F-4AAF-AE08-AD60A902358C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex7", "..\Ex7\Ex7.csproj", "{D0D10D5D-F0A5-436C-95FB-20A053617C75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex7", "..\Ex7\Ex7.csproj", "{D0D10D5D-F0A5-436C-95FB-20A053617C75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex8", "..\Ex8\Ex8.csproj", "{2E2BA2F1-542B-49D7-B756-D716CF7A487C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex8", "..\Ex8\Ex8.csproj", "{2E2BA2F1-542B-49D7-B756-D716CF7A487C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex9", "..\Ex9\Ex9.csproj", "{11DAF42F-6016-46BD-82B6-66F1F76BD461}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex9", "..\Ex9\Ex9.csproj", "{11DAF42F-6016-46BD-82B6-66F1F76BD461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex10", "..\Ex10\Ex10.csproj", "{BFCE4ED9-0E15-4F28-85AF-F278A478AFDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex10", "..\Ex10\Ex10.csproj", "{BFCE4ED9-0E15-4F28-85AF-F278A478AFDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex11", "..\Ex11\Ex11.csproj", "{E40F3DB0-1395-4C98-A4F4-D1563DBBE32F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex12", "..\Ex12\Ex12.csproj", "{9FA82521-2168-497E-8C3D-2D54111EF46E}"
 EndProject
 <<<<<<< HEAD
 =======
@@ -75,11 +79,21 @@ Global
 		{BFCE4ED9-0E15-4F28-85AF-F278A478AFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFCE4ED9-0E15-4F28-85AF-F278A478AFDB}.Release|Any CPU.Build.0 = Release|Any CPU
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Добавьте файлы проекта.
 		{E40F3DB0-1395-4C98-A4F4-D1563DBBE32F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E40F3DB0-1395-4C98-A4F4-D1563DBBE32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E40F3DB0-1395-4C98-A4F4-D1563DBBE32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E40F3DB0-1395-4C98-A4F4-D1563DBBE32F}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+>>>>>>> Добавьте файлы проекта.
+=======
+		{9FA82521-2168-497E-8C3D-2D54111EF46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA82521-2168-497E-8C3D-2D54111EF46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA82521-2168-497E-8C3D-2D54111EF46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA82521-2168-497E-8C3D-2D54111EF46E}.Release|Any CPU.Build.0 = Release|Any CPU
 >>>>>>> Добавьте файлы проекта.
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
